@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anand.newapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".applica"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Techzie"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="GET IN "
+            android:theme="@style/nobar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".registraation"
+            android:label="@string/title_activity_registraation" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Welcome Home" >
+        </activity>
+        <activity
+            android:name=".chouse"
+            android:label="@string/title_activity_chouse" >
+        </activity>
+        <activity
+            android:name=".cqstn"
+            android:label="@string/title_activity_cqstn" >
+        </activity>
+        <activity
+            android:name=".cendgame"
+            android:label="@string/title_activity_cendgame" >
+        </activity>
+        <activity
+            android:name=".jhouse"
+            android:label="@string/title_activity_jhouse" >
+        </activity>
+        <activity
+            android:name=".jqstn"
+            android:label="@string/title_activity_jqstn" >
+        </activity>
+        <activity
+            android:name=".jendgame"
+            android:label="@string/title_activity_jendgame" >
+        </activity>
+        <activity
+            android:name=".wthouse"
+            android:label="@string/title_activity_wthouse" >
+        </activity>
+        <activity
+            android:name=".wtqstn"
+            android:label="@string/title_activity_wtqstn" >
+        </activity>
+        <activity
+            android:name=".wtendgame"
+            android:label="@string/title_activity_wtendgame" >
+        </activity>
+        <activity
+            android:name=".dbhouse"
+            android:label="@string/title_activity_dbhouse" >
+        </activity>
+        <activity
+            android:name=".dbqstn"
+            android:label="@string/title_activity_dbqstn" >
+        </activity>
+        <activity
+            android:name=".dbendgame"
+            android:label="@string/title_activity_dbendgame" >
+        </activity>
+        <activity
+            android:name=".oshouse"
+            android:label="@string/title_activity_oshouse" >
+        </activity>
+        <activity
+            android:name=".osqstn"
+            android:label="@string/title_activity_osqstn" >
+        </activity>
+        <activity
+            android:name=".osendgame"
+            android:label="@string/title_activity_osendgame" >
+        </activity>
+        <activity
+            android:name=".sshouse"
+            android:label="@string/title_activity_sshouse" >
+        </activity>
+        <activity
+            android:name=".ssqstn"
+            android:label="@string/title_activity_ssqstn" >
+        </activity>
+        <activity
+            android:name=".ssendgame"
+            android:label="@string/title_activity_ssendgame" >
+        </activity>
+        <activity
+            android:name=".cnhouse"
+            android:label="@string/title_activity_cnhouse" >
+        </activity>
+        <activity
+            android:name=".cnqstn"
+            android:label="@string/title_activity_cnqstn" >
+        </activity>
+        <activity
+            android:name=".cnendgame"
+            android:label="@string/title_activity_cnendgame" >
+        </activity>
+        <activity
+            android:name=".dashboard"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+    </application>
+
+</manifest>
